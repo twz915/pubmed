@@ -5,7 +5,8 @@ Get literature information via PubMed ID, such as the author, title, journal_nam
 
 ## Usage
     from pubmed import PubMed
-    pm = PubMed(22012762)
+    # http://www.ncbi.nlm.nih.gov/pubmed/24622768
+    pm = PubMed(24622768)
 
     print pm.title
     print pm.authors
