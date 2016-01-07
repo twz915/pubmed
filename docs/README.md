@@ -1,5 +1,11 @@
-Get literature information via PubMed ID, such as the author, title, journal_name, pub_date and so on.
-Read csv file downloaded from pubmed search page
+`pubmed` is used to: 
+
+1. Get literature information via PubMed ID, such as the author, title, journal_name, pub_date and so on.
+
+2. Read csv file downloaded from pubmed search page.
+
+![how to download pubmed search results](https://raw.githubusercontent.com/twz915/pubmed/master/docs/pubmed_results.png)
+
 
 ## Install
     pip install pubchem
