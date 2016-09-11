@@ -14,8 +14,8 @@
 ### Query Online
 ```python
 from pubmed import PubMed
-# http://www.ncbi.nlm.nih.gov/pubmed/24622768
-pm = PubMed(24622768)
+# http://www.ncbi.nlm.nih.gov/pubmed/26471457
+pm = PubMed(26471457)
 
 print pm.title
 print pm.authors
@@ -50,4 +50,17 @@ for p in f:
     print(p.title)
     print(p.authors)
     print(p.PMID)
+```
+
+demo
+
+```
+>>> pm = PubMed(26471457)
+>>> pm.authors
+['Tu W', 'Zhang H', 'Liu J', 'Hu QN']
+>>> pm.title
+'BioSynther: a customized biosynthetic potential explorer.'
+>>> pm.pub_date
+'2016 Feb 1'
+>>> 
 ```
