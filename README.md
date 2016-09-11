@@ -8,7 +8,7 @@
 
 
 ## Install
-    pip install pubchem
+    pip install pubmed
 
 ## Usage
 ### Query Online
